@@ -175,23 +175,10 @@
     </modules>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7.0_25" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/../out" />
+    <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="" />
-  </component>
-  <component name="libraryTable">
-    <library name="gwt-dev">
-      <CLASSES>
-        <root url="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-dev.jar!/" />
-        <root url="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/" />
-      </CLASSES>
-      <JAVADOC />
-      <SOURCES>
-        <root url="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-dev.jar!/" />
-        <root url="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/" />
-      </SOURCES>
-    </library>
   </component>
 </project>
 
