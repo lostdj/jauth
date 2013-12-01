@@ -5,20 +5,27 @@
 		Common
 		======
 	-->
-	<property name="r" location="../../.."/>
+	<property name="r" location="./../../.."/>
 
 	<property name="gwt.sdk" location="D:\dev\i\gwt-2.6.0-rc1"/>
 
-	<property name="client.src" location="${r}/client/src/main/java"/>
+	<property name="client" location="${r}/client"/>
+	<property name="client.src" location="${client}/src/main/java"/>
 
 	<property name="out.dev" location="${r}/out/client/dev"/>
 	<property name="out.rel" location="${r}/out/client/rel"/>
 	<property name="out.test" location="${r}/out/test/client"/>
 
+	<property name="out.dev.war" location="${out.dev}/war"/>
+	<property name="out.dev.classes" location="${out.dev}/war/WEB-INF/classes"/>
+	<property name="out.dev.tmp" location="${out.dev}/tmp"/>
+
 	<target name="clean" description="Cleans this project">
-		<delete dir="${out.dev}" failonerror="false"/>
+		<delete dir="${r}/out/client"/>
+		<delete dir="${r}/out/test/client"/>
+		<!--<delete dir="${out.dev}" failonerror="false"/>
 		<delete dir="${out.rel}" failonerror="false"/>
-		<delete dir="${out.test}" failonerror="false"/>
+		<delete dir="${out.test}" failonerror="false"/>-->
 	</target>
 	<!---->
 
@@ -38,26 +45,54 @@
 	</path>
 
 	<target name="client-dev-javac" description="Compile java source to bytecode">
-		<property name="out.classes" location="${out.dev}/war/WEB-INF/classes"/>
-		<mkdir dir="${out.classess}"/>
+		<mkdir dir="${out.dev.classes}"/>
+		<mkdir dir="${out.dev.tmp}"/>
 
 		<javac srcdir="${client.src}" includes="**" encoding="utf-8"
-			destdir="${out.classess}"
+			destdir="${out.dev.classes}"
 			source="1.7" target="1.7" nowarn="false"
-			debug="true" debuglevel="lines,vars,source">
+			debug="true" debuglevel="lines,vars,source"
+			includeantruntime="false"
+			fork="true">
 
 			<classpath>
+				<pathelement path="${out.dev.classes}"/>
 				<path refid="gwt.dev.classpath"/>
-				<pathelement path="${out.classess}"/>
 			</classpath>
 		</javac>
 
-		<copy todir="${out.classess}">
+		<copy todir="${out.dev.war}/">
+			<fileset dir="${client}/war"/>
+		</copy>
+		<copy todir="${out.dev.classes}">
 			<fileset dir="${client.src}" excludes="**/*.java"/>
 		</copy>
 	</target>
 
 	<target name="client-dev-run" depends="client-dev-javac" description="Run development mode">
+		<java failonerror="true" fork="true" classname="com.google.gwt.dev.DevMode" dir="${out.dev}">
+			<classpath>
+				<pathelement location="${gwt.sdk}/gwt-codeserver.jar" />
+				<pathelement location="${gwt.sdk}validation-api-1.0.0.GA.jar" />
+				<pathelement location="${gwt.sdk}validation-api-1.0.0.GA-sources.jar" />
+				<path refid="gwt.dev.classpath"/>
+
+				<pathelement location="${client.src}"/>
+			</classpath>
+
+			<jvmarg value="-Xmx256M"/>
+			<jvmarg value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=${gwt.jvm.dev_debug_port}"/>
+			<arg line="-bindAddress ${gwt.dev_www_host}"/>
+			<arg line="-port ${gwt.dev_www_port}"/>
+			<arg line="-codeServerPort ${gwt.dev_code_port}"/>
+			<arg line="-logLevel INFO"/>
+
+			<arg line="-workDir ${out.dev.tmp}"/>
+			<arg value="com.mywebapp.MyWebApp"/>
+		</java>
+	</target>
+
+	<target name="client-superdev-run" depends="client-dev-javac" description="Run development mode">
 		<java failonerror="true" fork="true" classname="com.google.gwt.dev.codeserver.CodeServer" dir="${out.dev}">
 			<classpath>
 				<pathelement location="${gwt.sdk}/gwt-codeserver.jar" />
@@ -68,14 +103,14 @@
 				<pathelement location="${client.src}"/>
 			</classpath>
 
-			<jvmarg value="-Xmx256M -Xms8M"/>
+			<jvmarg value="-Xmx256M"/>
 			<jvmarg value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=${gwt.jvm.dev_debug_port}"/>
 			<arg line="-bindAddress ${gwt.dev_www_host}"/>
 			<arg line="-port ${gwt.dev_www_port}"/>
-			<arg line="-codeServerPort ${gwt.dev_code_port}"/>
-			<arg line="-logLevel INFO"/>	
+			<!--<arg line="-codeServerPort ${gwt.dev_code_port}"/>-->
+			<!--<arg line="-logLevel INFO"/>-->
 
-			<arg line="-workDir ${out.dev}/tmp"/>
+			<arg line="-workDir ${out.dev.tmp}"/>
 			<arg value="com.mywebapp.MyWebApp"/>
 		</java>
 	</target>
