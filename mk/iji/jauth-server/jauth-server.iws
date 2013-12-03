@@ -4,6 +4,50 @@
     <list default="true" id="27e5dd55-c8ad-4347-834e-b7702aaad8d4" name="Default" comment="" />
     <ignored path="jauth-server.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078369758" ignored="false" />
+    <file path="/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072053921" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071917893" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071932633" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071771719" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071800130" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071800130" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071793070" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071796624" ignored="false" />
+    <file path="/a.dummy" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078408198" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072014624" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072280298" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072320069" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072037516" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072037516" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072060126" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072037517" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
+    <file path="/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076607916" ignored="false" />
+    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078840205" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386077607094" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076795258" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076795258" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076795258" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078840205" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +106,31 @@
   <component name="FavoritesManager">
     <favorites_list name="jauth-server" />
   </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="114" selection-start="502" selection-end="502" vertical-scroll-proportion="0.40669855">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="688" />
     <option name="width" value="1232" />
@@ -93,7 +162,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -102,24 +170,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../server/ext/webbit.jar!/" />
-    <property name="MemberChooser.showClasses" value="true" />
-    <property name="GoToClass.includeLibraries" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -182,7 +290,29 @@
       <envs />
       <method />
     </configuration>
-    <list size="0" />
+    <configuration default="false" name="Main" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="jauth.server.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$/../../../" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="server" />
+      <envs />
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="JRebel Debug" />
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+    </list>
     <configuration name="&lt;template&gt;" type="JUnit" default="true" selected="false">
       <option name="MAIN_CLASS_NAME" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -213,12 +343,13 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3744717" sideWeight="0.57901233" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38218716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24175824" sideWeight="0.42340425" order="4" side_tool="true" content_ui="combo" x="810" y="70" width="299" height="940" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.0" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3279797" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="11" y="385" width="1897" height="309" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.35502958" sideWeight="0.5800493" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32389677" sideWeight="0.6178129" order="5" side_tool="false" content_ui="combo" />
@@ -228,7 +359,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25308642" sideWeight="0.0" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.0" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="11" y="385" width="1897" height="310" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -296,6 +426,33 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/SimpleLogSink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="541" selection-end="541" vertical-scroll-proportion="0.34634975">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/LoggingHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="308" selection-end="308" vertical-scroll-proportion="0.25976232">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="114" selection-start="502" selection-end="502" vertical-scroll-proportion="0.40669855">
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>

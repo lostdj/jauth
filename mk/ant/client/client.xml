@@ -88,7 +88,9 @@
 			<arg line="-logLevel INFO"/>
 
 			<arg line="-workDir ${out.dev.tmp}"/>
-			<arg value="com.mywebapp.MyWebApp"/>
+			<!--<arg line="-war jauth"/>-->
+			<arg line="-startupUrl index.htm"/>
+			<arg value="com.jauth.Main"/>
 		</java>
 	</target>
 
@@ -111,7 +113,7 @@
 			<!--<arg line="-logLevel INFO"/>-->
 
 			<arg line="-workDir ${out.dev.tmp}"/>
-			<arg value="com.mywebapp.MyWebApp"/>
+			<arg value="com.jauth.Main"/>
 		</java>
 	</target>
 	<!---->

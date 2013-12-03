@@ -4,6 +4,12 @@
     <list default="true" id="069792d8-0320-48ab-8887-054a7d7ec411" name="Default" comment="" />
     <ignored path="jauth-client.iws" />
     <ignored path=".idea/workspace.xml" />
+    <file path="/fragment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386078369758" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386078753824" ignored="false" />
+    <file path="/Auth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386072053921" ignored="false" />
+    <file path="/a.dummy" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386078408198" ignored="false" />
+    <file path="/AuthImpl.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386072067233" ignored="false" />
+    <file path="/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386078840205" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +70,109 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyWebApp.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyWebApp.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="13" selection-start="832" selection-end="832" vertical-scroll-proportion="-0.27272728">
+            <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Element.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Element.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="13" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Document.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Document.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1254" column="26" selection-start="40400" selection-end="40400" vertical-scroll-proportion="-15.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BodyElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/BodyElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="26" column="13" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="23" selection-start="795" selection-end="795" vertical-scroll-proportion="0.8025751">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Auth.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="293" column="6" selection-start="9602" selection-end="9602" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="35" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthRequest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="32" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Callback.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CookieStoreImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/CookieStoreImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="19" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenStore.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="32" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenStoreImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStoreImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="32" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,9 +185,31 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Callback.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/CookieStoreImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStore.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStoreImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Auth.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/AuthImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Auth.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/CookieStoreImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/TokenStoreImpl.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Main.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/Auth.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="688" />
-    <option name="width" value="1232" />
+    <option name="width" value="1231" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -153,7 +280,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywebapp" />
+              <option name="myItemId" value="com" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -179,11 +306,83 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mywebapp" />
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oauth2" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -202,6 +401,14 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="jauth.client.oauth2" />
+      <recent name="jauth.client" />
+      <recent name="jauth.oauth2.client" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -291,11 +498,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="688" y="0" width="1232" height="1080" extended-state="0" />
+    <frame x="688" y="0" width="1231" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25213677" sideWeight="0.0" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3744717" sideWeight="0.57901233" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38218716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -304,13 +512,12 @@
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3279797" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="11" y="385" width="1897" height="309" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.35502958" sideWeight="0.5800493" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3547044" sideWeight="0.5800493" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32389677" sideWeight="0.6178129" order="5" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43404734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25308642" sideWeight="0.0" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dataflow to this" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3276414" sideWeight="0.0" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="true" weight="0.32978722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" x="11" y="385" width="1897" height="310" />
@@ -382,9 +589,114 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStoreImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="42" column="32" selection-start="1467" selection-end="1467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="75" selection-start="1192" selection-end="1199" vertical-scroll-proportion="0.416309">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="13" selection-start="832" selection-end="832" vertical-scroll-proportion="-0.27272728">
+        <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/UIObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="126" column="22" selection-start="5031" selection-end="5031" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/Widget.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="31" selection-start="1480" selection-end="1480" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/Panel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="40" selection-start="802" selection-end="802" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/ComplexPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="45" selection-start="872" selection-end="872" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/AbsolutePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="57" column="39" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/RootPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="37" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/DOMImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="2" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/DOM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="381" column="73" selection-start="11070" selection-end="11070" vertical-scroll-proportion="0.2360515">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="13" selection-start="807" selection-end="807" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Document.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1254" column="26" selection-start="40400" selection-end="40400" vertical-scroll-proportion="-15.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/BodyElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="13" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="293" column="6" selection-start="9602" selection-end="9602" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="23" selection-start="795" selection-end="795" vertical-scroll-proportion="0.8025751">
           <folding />
         </state>
       </provider>
