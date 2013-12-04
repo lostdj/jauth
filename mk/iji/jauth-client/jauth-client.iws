@@ -6,10 +6,12 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386140106139" ignored="false" />
     <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386141828641" ignored="false" />
-    <file path="/Auth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386072053921" ignored="false" />
+    <file path="/Auth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386164073694" ignored="false" />
     <file path="/a.dummy" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386078408198" ignored="false" />
     <file path="/AuthImpl.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386072067233" ignored="false" />
-    <file path="/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386147595990" ignored="false" />
+    <file path="/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386163663590" ignored="false" />
+    <file path="/Providers.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386147885762" ignored="false" />
+    <file path="/Body.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386161732409" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,19 +72,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyWebApp.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+            <state line="35" column="0" selection-start="914" selection-end="1120" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Element.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Element.java">
+      <file leaf-file-name="Papers.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="700" column="27" selection-start="20072" selection-end="20072" vertical-scroll-proportion="0.0">
+            <state line="26" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.47272727">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Providers.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Properties.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/Properties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="40" column="53" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GQuery.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/GQuery.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1058" column="16" selection-start="35236" selection-end="35236" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -106,10 +135,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
+      <file leaf-file-name="Node.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Node.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="25" selection-start="861" selection-end="861" vertical-scroll-proportion="0.5">
+            <state line="60" column="31" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DivElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/DivElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="68" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,7 +165,7 @@
       <file leaf-file-name="AuthImpl.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
+            <state line="53" column="0" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -178,6 +216,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MyWebApp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -188,10 +235,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Callback.java" />
-        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/CookieStoreImpl.java" />
-        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStore.java" />
-        <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/TokenStoreImpl.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Auth.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthImpl.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/oauth2/AuthImpl.java" />
@@ -203,13 +246,17 @@
         <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/Auth.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Body.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Auth.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="688" />
-    <option name="width" value="1231" />
+    <option name="width" value="1234" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -392,13 +439,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="D:/dev/i/gwt-2.6.0-rc1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -516,7 +563,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="688" y="0" width="1231" height="1080" extended-state="0" />
+    <frame x="688" y="0" width="1234" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -524,7 +571,7 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25213677" sideWeight="0.0" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3744717" sideWeight="0.57901233" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38141027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38141027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24175824" sideWeight="0.42340425" order="4" side_tool="true" content_ui="combo" x="810" y="70" width="299" height="940" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -607,76 +654,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/AbsolutePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="39" selection-start="1957" selection-end="1957" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/ui/RootPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="37" selection-start="1668" selection-end="1668" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/DOMImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="2" selection-start="3619" selection-end="3619" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/user/client/DOM.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="381" column="73" selection-start="11070" selection-end="11070" vertical-scroll-proportion="0.2360515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Document.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1254" column="26" selection-start="40400" selection-end="40400" vertical-scroll-proportion="-15.08">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/BodyElement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="13" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Element.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="700" column="27" selection-start="20072" selection-end="20072" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="32" selection-start="628" selection-end="628" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="32" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/CookieStoreImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="19" selection-start="1093" selection-end="1093" vertical-scroll-proportion="0.0">
@@ -698,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="289" column="0" selection-start="9477" selection-end="9530" vertical-scroll-proportion="0.0">
@@ -712,9 +682,86 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="652" column="27" selection-start="18706" selection-end="18706" vertical-scroll-proportion="0.3329718">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/DivElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="68" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/dom/client/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="31" selection-start="1924" selection-end="1924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/mywebapp/client/MyWebApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="75" column="16" selection-start="2445" selection-end="2445" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/core/client/GWT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="237" column="8" selection-start="8222" selection-end="8225" vertical-scroll-proportion="0.33296704">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/GQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1058" column="16" selection-start="35236" selection-end="35236" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="53" selection-start="1487" selection-end="1487" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/Function.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="775" selection-end="815" vertical-scroll-proportion="0.22352941">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="861" selection-end="861" vertical-scroll-proportion="0.5">
+        <state line="35" column="0" selection-start="914" selection-end="1120" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/dev/i/gwt-2.6.0-rc1/gwt-user.jar!/com/google/gwt/core/client/JavaScriptObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="156" column="23" selection-start="4980" selection-end="4980" vertical-scroll-proportion="0.56363636">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="613" selection-end="613" vertical-scroll-proportion="0.47272727">
           <folding />
         </state>
       </provider>
@@ -776,7 +823,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

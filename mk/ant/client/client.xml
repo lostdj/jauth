@@ -42,6 +42,7 @@
 	<path id="gwt.dev.classpath">
 		<pathelement location="${gwt.sdk}/gwt-user.jar"/>
 		<fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+		<pathelement location="${client}/ext/gwtquery-1.3.3.jar"/>
 	</path>
 
 	<target name="client-dev-javac" description="Compile java source to bytecode">

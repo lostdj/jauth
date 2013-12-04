@@ -1,49 +1,46 @@
 package com.jauth.client;
 
 import com.google.gwt.core.client.EntryPoint;
-import com.google.gwt.dom.client.BodyElement;
-import com.google.gwt.dom.client.Document;
+import com.google.gwt.query.client.GQuery;
 import com.google.gwt.user.client.Window;
 import com.jauth.client.oauth2.Auth;
 
+import static com.google.gwt.query.client.GQuery.$;
+
+/*
+import com.google.gwt.query.client.GQuery;
+import com.google.gwt.query.client.Function;
+import com.google.gwt.query.client.Selector;
+import com.google.gwt.query.client.Selectors;
+import static com.google.gwt.query.client.GQuery.*;
+import static com.google.gwt.query.client.css.CSS.*;
+*/
+
 public class Main implements EntryPoint
 {
-	static final String def =
-"\t<center>\n" +
- "\t\t<table>\n" +
- "\t\t\t<tbody>\n" +
- "\t\t\t\t<tr>\n" +
- "\t\t\t\t\t<td>\n" +
- "\t\t\t\t\t\tPapers, please<br/>\n" +
- "\t\t\t\t\t\t<br/>\n" +
- "\t\t\t\t\t\t<center>\n" +
- "\t\t\t\t\t\t\t<img src=\"./google.png\" id=\"authwith-google\" width=\"16\" height=\"16\"/>\n" +
- "\t\t\t\t\t\t</center>\n" +
- "\t\t\t\t\t</td>\n" +
- "\t\t\t\t</tr>\n" +
- "\t\t\t</tbody>\n" +
- "\t\t</table>\n" +
- "\t</center>";
+	public static final GQuery body = $("body");
+	public static final GQuery head = $("<div/>").attr("id", "head");
+	public static final GQuery comments = $("<div/>").attr("id", "comments");
 
 	@Override
 	public void onModuleLoad()
 	{
 		Auth.export();
 
-		BodyElement be = Document.get().getBody();
-		be.setInnerHTML(def);
+		body.append(head);
+		body.append(comments);
 
-		export();
+		head.append(Papers.papers);
 	}
 
-	public static native void export()
-	/*-{
-		@com.jauth.client.Main::leclick()();
-		$doc.getElementById("authwith-google").addEventListener("click", @com.jauth.client.Main::leclick(), false);
-  }-*/;
+//	public static native void export()
+//	/*-{
+//		@com.jauth.client.Main::leclick()();
+//		$doc.getElementById("authwith-google").addEventListener("click", @com.jauth.client.Main::leclick(), false);
+//  }-*/;
 
-	private static void leclick()
+	public static void leclick(String s)
 	{
-		Window.alert("leclick!");
+		Window.alert(s);
 	}
 }

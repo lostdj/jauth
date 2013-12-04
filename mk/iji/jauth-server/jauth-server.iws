@@ -5,7 +5,7 @@
     <ignored path="jauth-server.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386140106139" ignored="false" />
-    <file path="/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072053921" ignored="false" />
+    <file path="/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386164073694" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071917893" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071932633" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071771719" ignored="false" />
@@ -30,7 +30,7 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
     <file path="/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076607916" ignored="false" />
-    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386147595990" ignored="false" />
+    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386163663590" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386077607094" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
@@ -41,13 +41,19 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386146776392" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386147623128" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386163734563" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386160158997" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386163540846" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386163041765" ignored="false" />
+    <file path="/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386147885762" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161762587" ignored="false" />
+    <file path="/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161732409" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386164108488" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
