@@ -17,11 +17,7 @@
 package com.jauth.client.oauth2;
 
 import com.google.gwt.core.client.Callback;
-import com.google.gwt.core.client.Duration;
-import com.google.gwt.core.client.GWT;
-import com.google.gwt.core.client.JavaScriptObject;
-import com.google.gwt.core.client.Scheduler;
-import com.google.gwt.storage.client.Storage;
+import com.google.gwt.core.client.*;
 
 /**
  * Real implementation of {@link Auth}, used in real GWT applications.
@@ -37,7 +33,7 @@ class AuthImpl extends Auth {
   AuthImpl() {
     super(getTokenStore(), new RealClock(), new RealUrlCodex(), Scheduler.get(),
     // Default to use the bundled oauthWindow.html
-        GWT.getModuleBaseURL() + "oauthWindow.html");
+        GWT.getModuleBaseURL().replace("main/", "") + "index.htm");
     register();
   }
 
@@ -49,7 +45,8 @@ class AuthImpl extends Auth {
   // for browsers that support localStorage, and vice versa? If not, this should
   // be a deferred binding rule.
   private static TokenStoreImpl getTokenStore() {
-    return Storage.isLocalStorageSupported() ? new TokenStoreImpl() : new CookieStoreImpl();
+		return new CookieStoreImpl();
+    //return Storage.isLocalStorageSupported() ? new TokenStoreImpl() : new CookieStoreImpl();
   }
 
   /**

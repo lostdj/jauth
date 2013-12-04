@@ -22,6 +22,8 @@ public class Main implements EntryPoint
 	public static final GQuery head = $("<div/>").attr("id", "head");
 	public static final GQuery comments = $("<div/>").attr("id", "comments");
 
+	public static final Auth auth = Auth.get();
+
 	@Override
 	public void onModuleLoad()
 	{
@@ -32,12 +34,6 @@ public class Main implements EntryPoint
 
 		head.append(Papers.papers);
 	}
-
-//	public static native void export()
-//	/*-{
-//		@com.jauth.client.Main::leclick()();
-//		$doc.getElementById("authwith-google").addEventListener("click", @com.jauth.client.Main::leclick(), false);
-//  }-*/;
 
 	public static void leclick(String s)
 	{

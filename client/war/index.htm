@@ -2,8 +2,19 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<script type="text/javascript" language="javascript" src="main/main.nocache.js"></script>
 	<title>Untitled</title>
+	<script type="text/javascript" language="javascript" src="main/main.nocache.js"></script>
+	<script type="text/javascript">
+		if(window.opener && window.opener.oauth2 && window.opener.oauth2.__doLogin)
+		{
+			window.opener.oauth2.__doLogin(location.hash);
+		}
+		else
+		{
+			document.body.innerText =
+		"Your browser seems to be stopping this window from communicating with the main window.";
+		}
+	</script>
 </head>
 <body bgcolor="#E8E8E8">
 
