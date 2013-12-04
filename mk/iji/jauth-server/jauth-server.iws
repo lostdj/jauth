@@ -4,7 +4,7 @@
     <list default="true" id="27e5dd55-c8ad-4347-834e-b7702aaad8d4" name="Default" comment="" />
     <ignored path="jauth-server.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078369758" ignored="false" />
+    <file path="/fragment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386140106139" ignored="false" />
     <file path="/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072053921" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071917893" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386071932633" ignored="false" />
@@ -30,7 +30,7 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
     <file path="/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076607916" ignored="false" />
-    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078840205" ignored="false" />
+    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386147595990" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386077607094" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
@@ -40,8 +40,8 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076795258" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078840205" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386146776392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386147623128" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
@@ -111,7 +111,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="114" selection-start="502" selection-end="502" vertical-scroll-proportion="0.40669855">
+            <state line="14" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.4117647">
               <folding />
             </state>
           </provider>
@@ -150,7 +150,7 @@
     <option name="STATE" value="2" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -161,61 +161,14 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jauth-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jauth-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jauth-server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../server/ext/webbit.jar!/" />
@@ -226,6 +179,8 @@
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -302,12 +257,20 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="server" />
       <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
       <RunnerSettings RunnerId="JRebel Debug">
         <option name="DEBUG_PORT" value="" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="JRebel Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <list size="1">
@@ -337,14 +300,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="688" y="0" width="1232" height="1080" extended-state="0" />
+    <frame x="688" y="0" width="1232" height="1080" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3744717" sideWeight="0.57901233" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38218716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38141027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24175824" sideWeight="0.42340425" order="4" side_tool="true" content_ui="combo" x="810" y="70" width="299" height="940" />
       <window_info id="JRebel" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -353,7 +316,7 @@
       <window_info id="TODO" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3279797" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" x="11" y="385" width="1897" height="309" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.35502958" sideWeight="0.5800493" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.32389677" sideWeight="0.6178129" order="5" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43404734" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43376067" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,23 +395,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/SimpleLogSink.class">
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="541" selection-end="541" vertical-scroll-proportion="0.34634975">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/LoggingHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="308" selection-end="308" vertical-scroll-proportion="0.25976232">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="114" selection-start="502" selection-end="502" vertical-scroll-proportion="0.40669855">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/SimpleLogSink.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="9" selection-start="541" selection-end="541" vertical-scroll-proportion="0.34634975" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/LoggingHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="9" selection-start="308" selection-end="308" vertical-scroll-proportion="0.25976232" />
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/HttpContentEncoder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.62541807" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="5" selection-start="408" selection-end="408" vertical-scroll-proportion="0.4117647">
           <folding />
         </state>
       </provider>
@@ -459,10 +437,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>server:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
