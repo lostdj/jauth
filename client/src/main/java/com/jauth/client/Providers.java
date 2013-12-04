@@ -1,6 +1,8 @@
 package com.jauth.client;
 
 import com.google.gwt.query.client.Function;
+import com.google.gwt.query.client.GQuery;
+import com.google.gwt.query.client.Properties;
 import com.google.gwt.user.client.Event;
 import com.google.gwt.user.client.Window;
 import com.jauth.client.oauth2.AuthRequest;
@@ -48,8 +50,14 @@ public enum Providers
 					@Override
 					public void onSuccess(String token)
 					{
-						Window.alert("Got an OAuth token:\n" + token + "\n"
-													+ "Token expires in " + Main.auth.expiresIn(req) + " ms\n");
+//						Window.alert("Got an OAuth token:\n" + token + "\n"
+//													+ "Token expires in " + Main.auth.expiresIn(req) + " ms\n");
+
+						GQuery.post("ajax", Properties.create()
+							.$$("a", "loggedin")
+							.$$("prov", id)
+							.$$("tok", token),
+							null);
 					}
 
 					@Override

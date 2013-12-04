@@ -13,6 +13,8 @@ public class Main
 	{
 		WebServer webServer = createWebServer(80)
 		 .add(new LoggingHandler(new SimpleLogSink("")))
+		 .add("/", new Jauth())
+		 .add("/ajax", new Ajax())
 		 .add(new StaticFileHandler("./server/war"))
 		 .add(new StaticFileHandler("./out/client/dev/war"))
 		 .start().get();

@@ -225,7 +225,7 @@ public abstract class Auth {
   }
 
   void setToken(AuthRequest req, TokenInfo info) {
-    tokenStore.set(req.asString(), info.asString());
+    //tokenStore.set(req.asString(), info.asString());
   }
 
   /**

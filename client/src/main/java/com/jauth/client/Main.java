@@ -1,6 +1,7 @@
 package com.jauth.client;
 
 import com.google.gwt.core.client.EntryPoint;
+import com.google.gwt.query.client.Function;
 import com.google.gwt.query.client.GQuery;
 import com.google.gwt.user.client.Window;
 import com.jauth.client.oauth2.Auth;
@@ -31,6 +32,17 @@ public class Main implements EntryPoint
 
 		body.append(head);
 		body.append(comments);
+
+		// TODO: Logout.
+
+		GQuery.post("ajax/getsessioncredentials", null,
+			new Function()
+			{
+				public void f()
+				{
+					;
+				}
+			});
 
 		head.append(Papers.papers);
 	}
