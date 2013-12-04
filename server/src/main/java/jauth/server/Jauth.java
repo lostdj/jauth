@@ -38,5 +38,9 @@ public class Jauth implements HttpHandler
 		System.out.println(request.body());
 
 		control.nextHandler();
+
+//		response.header("Content-type", "text/html")
+//		 .content("BLAAAAAAAAAH")
+//		 .end();
 	}
 }

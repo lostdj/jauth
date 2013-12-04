@@ -36,8 +36,12 @@ public class Ajax implements HttpHandler
 		{
 			switch(request.postParam("a"))
 			{
-				//
+				case "loggedin":
+					response.content("Good for you!");
+					break;
 			}
+
+			control.execute(new Result(request, response, control));
 		}
 	}
 

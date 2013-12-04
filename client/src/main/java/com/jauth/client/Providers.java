@@ -57,7 +57,13 @@ public enum Providers
 							.$$("a", "loggedin")
 							.$$("prov", id)
 							.$$("tok", token),
-							null);
+							new Function()
+							{
+								public void f()
+								{
+									Window.alert(this.getDataObject().toString());
+								}
+							});
 					}
 
 					@Override
