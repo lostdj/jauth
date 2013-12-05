@@ -83,10 +83,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.079089925">
+            <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -167,16 +167,16 @@
       <file leaf-file-name="Auth.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="267" column="16" selection-start="8621" selection-end="8621" vertical-scroll-proportion="-12.12">
+            <state line="159" column="24" selection-start="5326" selection-end="5326" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AuthImpl.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="AuthImpl.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="30" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
+            <state line="35" column="65" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.35042736">
               <folding />
             </state>
           </provider>
@@ -245,7 +245,6 @@
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Body.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Auth.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Google.java" />
-        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java" />
@@ -253,6 +252,7 @@
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comments.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comment.java" />
         <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" />
+        <option value="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" />
       </list>
     </option>
   </component>
@@ -687,20 +687,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="30" selection-start="1583" selection-end="1583" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="267" column="16" selection-start="8621" selection-end="8621" vertical-scroll-proportion="-12.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../client/ext/gwtquery-1.3.3.jar!/com/google/gwt/query/client/plugins/ajax/Ajax.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="304" column="21" selection-start="9713" selection-end="9713" vertical-scroll-proportion="-0.3308026">
@@ -766,7 +752,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.079089925">
+        <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="159" column="24" selection-start="5326" selection-end="5326" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="65" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.35042736">
           <folding />
         </state>
       </provider>
