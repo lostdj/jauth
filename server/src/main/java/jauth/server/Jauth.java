@@ -18,7 +18,7 @@ import java.util.concurrent.Executors;
 public class Jauth implements HttpHandler
 {
 	public static final Executor workers = Executors.newFixedThreadPool(2);
-	public static final Map<String, Object> sessions = Collections.synchronizedMap(new HashMap<String, Object>());
+	public static final Map<String, Info> sessions = Collections.synchronizedMap(new HashMap<String, Info>());
 	public static final Gson json = new Gson();
 
 	@Override
@@ -27,7 +27,7 @@ public class Jauth implements HttpHandler
 		if(request.cookieValue("ssssid") == null || !sessions.containsKey(request.cookieValue("ssssid")))
 		{
 			String ssssid = new BigInteger(130, new SecureRandom()).toString(32);
-			sessions.put(ssssid, new Object());
+			sessions.put(ssssid, new Info());
 			HttpCookie c = new HttpCookie("ssssid", ssssid);
 			c.setMaxAge(100500);
 			response.cookie(c);
@@ -42,5 +42,12 @@ public class Jauth implements HttpHandler
 //		response.header("Content-type", "text/html")
 //		 .content("BLAAAAAAAAAH")
 //		 .end();
+	}
+
+	public static class Info
+	{
+		public String provider;
+		public String token;
+		public String name;
 	}
 }

@@ -41,7 +41,7 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386175841620" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386181307785" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183464256" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386171586612" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386160158997" ignored="false" />
@@ -53,11 +53,11 @@
     <file path="/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183215899" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161762587" ignored="false" />
     <file path="/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161732409" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386169814433" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183449058" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Google.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386169170932" ignored="false" />
     <file path="/Google.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386169115538" ignored="false" />
-    <file path="/Jauth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386180777404" ignored="false" />
-    <file path="/Ajax.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386182687735" ignored="false" />
+    <file path="/Jauth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386222386953" ignored="false" />
+    <file path="/Ajax.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386225771409" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +130,7 @@
       <file leaf-file-name="Jauth.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="0" selection-start="1324" selection-end="1415" vertical-scroll-proportion="0.0">
+            <state line="21" column="40" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,7 +139,25 @@
       <file leaf-file-name="Ajax.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="63" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="1.216906">
+            <state line="71" column="10" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.64752793">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultHttpRequest.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/DefaultHttpRequest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.08">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="URLConnection.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/URLConnection.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="743" column="18" selection-start="28269" selection-end="28269" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -180,7 +198,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -191,17 +209,54 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jauth-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ext" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.lastSelected" value="reference.projectsettings.compiler.javacompiler" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../server/ext/webbit.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../server/ext/google-api-java-client-1.17.0-rc.zip!/google-api-java-client/libs-sources" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -331,12 +386,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="688" y="0" width="1232" height="1080" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.3744717" sideWeight="0.57901233" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32905984" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38141027" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292232" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="right" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.24175824" sideWeight="0.42340425" order="4" side_tool="true" content_ui="combo" x="810" y="70" width="299" height="940" />
@@ -425,32 +480,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/SimpleLogSink.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="9" selection-start="541" selection-end="541" vertical-scroll-proportion="0.34634975" />
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/LoggingHandler.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="9" selection-start="308" selection-end="308" vertical-scroll-proportion="0.25976232" />
@@ -459,13 +488,6 @@
     <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/HttpContentEncoder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state line="33" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.62541807" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/com/google/gson/Gson.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.34260288">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/BaseWebSocketHandler.class">
@@ -519,14 +541,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="1324" selection-end="1415" vertical-scroll-proportion="0.0">
+        <state line="21" column="40" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/URLConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="743" column="18" selection-start="28269" selection-end="28269" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/rt.jar!/sun/net/www/protocol/http/HttpURLConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="168" selection-end="168" vertical-scroll-proportion="-5.980456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/DefaultHttpRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.08">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/io/BufferedReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="169" column="15" selection-start="4777" selection-end="4777" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="16" selection-start="3555" selection-end="3555" vertical-scroll-proportion="0.3786078">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="0" selection-start="1426" selection-end="1426" vertical-scroll-proportion="1.216906">
+        <state line="71" column="10" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.64752793">
           <folding />
         </state>
       </provider>
@@ -590,7 +647,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

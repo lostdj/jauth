@@ -21,6 +21,16 @@ public class Main implements EntryPoint
 {
 	public static final GQuery body = $("body");
 	public static final GQuery head = $("<div/>").attr("id", "head");
+
+	public static final GQuery papers = $("<center/>").attr("id", "papers");
+	static
+	{
+		papers.append("<b>Papers, please</b>");
+		papers.append("<br/><br/>");
+		for(Providers p : Providers.values())
+			papers.append($(p.img).click(p.onclick));
+	}
+
 	public static final GQuery comments = $("<div/>").attr("id", "comments");
 
 	public static final Auth auth = Auth.get();
@@ -44,7 +54,7 @@ public class Main implements EntryPoint
 				}
 			});
 
-		head.append(Papers.papers);
+		head.append(papers);
 	}
 
 	public static void leclick(String s)

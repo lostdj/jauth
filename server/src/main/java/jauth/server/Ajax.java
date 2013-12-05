@@ -5,6 +5,11 @@ import org.webbitserver.HttpHandler;
 import org.webbitserver.HttpRequest;
 import org.webbitserver.HttpResponse;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.URL;
+import java.net.URLConnection;
+
 public class Ajax implements HttpHandler
 {
 	@Override
@@ -37,7 +42,36 @@ public class Ajax implements HttpHandler
 			switch(request.postParam("a"))
 			{
 				case "loggedin":
-					response.content("Good for you!");
+					Jauth.sessions.get(request.cookieValue("ssssid")).provider = request.postParam("prov");
+					Jauth.sessions.get(request.cookieValue("ssssid")).token = request.postParam("tok");
+
+					try
+					{
+						// There is also this
+						// https://code.google.com/p/google-api-java-client/
+						// https://developers.google.com/+/quickstart/java#step_1_enable_the_google_api
+						URLConnection c = new URL(new URL("https://www.googleapis.com"),
+							"/plus/v1/people/me?access_token=" + Jauth.sessions.get(request.cookieValue("ssssid")).token)
+							.openConnection();
+
+						BufferedReader in = new BufferedReader(new InputStreamReader(c.getInputStream()));
+						StringBuffer response = new StringBuffer();
+						String inputLine;
+						while ((inputLine = in.readLine()) != null)
+							response.append(inputLine);
+						in.close();
+
+						Gplus gp = Jauth.json.fromJson(response.toString(), Gplus.class);
+						Jauth.sessions.get(request.cookieValue("ssssid")).name = gp.displayName;
+					}
+					catch(Exception e)
+					{
+						System.out.println(e);
+						e.printStackTrace();
+					}
+
+					response.content(Jauth.sessions.get(request.cookieValue("ssssid")).name);
+
 					break;
 			}
 
@@ -63,5 +97,15 @@ public class Ajax implements HttpHandler
 		{
 			response.end();
 		}
+	}
+
+	static class Gplus
+	{
+		String kind;
+		String etag;
+		String gender;
+		String objectType;
+		String id;
+		String displayName;
 	}
 }
