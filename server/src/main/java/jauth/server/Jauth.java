@@ -19,6 +19,7 @@ public class Jauth implements HttpHandler
 {
 	public static final Executor workers = Executors.newFixedThreadPool(2);
 	public static final Map<String, Info> sessions = Collections.synchronizedMap(new HashMap<String, Info>());
+	public static final Comments comments = new Comments();
 	public static final Gson json = new Gson();
 
 	@Override

@@ -50,9 +50,6 @@ public enum Providers
 					@Override
 					public void onSuccess(String token)
 					{
-//						Window.alert("Got an OAuth token:\n" + token + "\n"
-//													+ "Token expires in " + Main.auth.expiresIn(req) + " ms\n");
-
 						GQuery.post("ajax", Properties.create()
 							.$$("a", "loggedin")
 							.$$("prov", id)
@@ -61,7 +58,10 @@ public enum Providers
 							{
 								public void f()
 								{
-									Window.alert(this.getDataObject().toString());
+									Window.alert("You've done it right, " + this.getDataObject().toString() + "!");
+									Main.papers.hide();
+									Main.comments.show();
+									Main.loadComments();
 								}
 							});
 					}

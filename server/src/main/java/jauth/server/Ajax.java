@@ -73,6 +73,30 @@ public class Ajax implements HttpHandler
 					response.content(Jauth.sessions.get(request.cookieValue("ssssid")).name);
 
 					break;
+
+				case "getcredentials":
+					if(Jauth.sessions.get(request.cookieValue("ssssid")).name != null)
+						response.content("ok");
+					else
+						response.content("papers, please");
+
+					break;
+
+				case "postcomment":
+					Comment c = new Comment();
+					c.name = Jauth.sessions.get(request.cookieValue("ssssid")).name;
+					c.comment = request.postParam("comm");
+					c.provider = Jauth.sessions.get(request.cookieValue("ssssid")).provider;
+					Jauth.comments.comments.add(c);
+
+					response.content("ok");
+
+					break;
+
+				case "getcomments":
+					response.content(Jauth.json.toJson(Jauth.comments, Comments.class));
+
+					break;
 			}
 
 			control.execute(new Result(request, response, control));

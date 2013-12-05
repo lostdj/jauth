@@ -30,7 +30,7 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386072067233" ignored="false" />
     <file path="/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386171547409" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/oauth2/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076607916" ignored="false" />
-    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386181290271" ignored="false" />
+    <file path="/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386231664394" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386077607094" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
@@ -41,23 +41,30 @@
     <file path="$PROJECT_DIR$/../../../client/src/main/java/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386076864846" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthRequest.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386175841620" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183464256" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386231848280" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/Callback.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/AuthImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386171586612" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386160158997" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/Main.gwt.xml" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386230097614" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/CookieStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStoreImpl.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078416593" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/oauth2/TokenStore.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386078371827" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Auth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386163540846" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183216598" ignored="false" />
-    <file path="/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183215899" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386227615813" ignored="false" />
+    <file path="/Providers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386226887528" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161762587" ignored="false" />
     <file path="/Body.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386161732409" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Papers.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386183449058" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Google.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386169170932" ignored="false" />
     <file path="/Google.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386169115538" ignored="false" />
-    <file path="/Jauth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386222386953" ignored="false" />
-    <file path="/Ajax.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386225771409" ignored="false" />
+    <file path="/Jauth.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386230816144" ignored="false" />
+    <file path="/Ajax.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386231313018" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/war/index.tmpl.htm" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386227124721" ignored="false" />
+    <file path="/Comments.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386230502392" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386231281379" ignored="false" />
+    <file path="/Comment.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386231298281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comments.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386229979376" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/CommentsCodec.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386229613860" ignored="false" />
+    <file path="/CommentsCodec.java" changelist="27e5dd55-c8ad-4347-834e-b7702aaad8d4" time="1386229613210" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +137,7 @@
       <file leaf-file-name="Jauth.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
+            <state line="21" column="57" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -139,25 +146,25 @@
       <file leaf-file-name="Ajax.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="10" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.64752793">
+            <state line="88" column="82" selection-start="2719" selection-end="2719" vertical-scroll-proportion="0.46889952">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultHttpRequest.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/DefaultHttpRequest.class">
+      <file leaf-file-name="Comments.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comments.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="13" selection-start="177" selection-end="177" vertical-scroll-proportion="-4.08">
+            <state line="8" column="9" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="URLConnection.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/URLConnection.java">
+      <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="743" column="18" selection-start="28269" selection-end="28269" vertical-scroll-proportion="0.0">
+            <state line="6" column="25" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -174,7 +181,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" />
+        <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comments.java" />
         <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java" />
+        <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comment.java" />
         <option value="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java" />
       </list>
     </option>
@@ -386,7 +395,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="688" y="0" width="1232" height="1080" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -480,23 +489,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/handler/logging/LoggingHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="9" selection-start="308" selection-end="308" vertical-scroll-proportion="0.25976232" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/jboss/netty/handler/codec/http/HttpContentEncoder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="2168" selection-end="2168" vertical-scroll-proportion="0.62541807" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/org/webbitserver/BaseWebSocketHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="543" selection-end="543" vertical-scroll-proportion="-8.84">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/concurrent/Executors.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="177" column="34" selection-start="7180" selection-end="7180" vertical-scroll-proportion="0.3329776">
@@ -532,20 +524,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="16" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="714" selection-end="714" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/net/URLConnection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="743" column="18" selection-start="28269" selection-end="28269" vertical-scroll-proportion="0.0">
@@ -574,16 +552,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="16" selection-start="496" selection-end="496" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_25/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1144" column="0" selection-start="44322" selection-end="44322" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="9" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="57" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/../../../server/ext/webbit.jar!/com/google/gson/Gson.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="16" selection-start="3555" selection-end="3555" vertical-scroll-proportion="0.3786078">
+        <state line="35" column="26" selection-start="2460" selection-end="2460" vertical-scroll-proportion="-8.16">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="10" selection-start="2183" selection-end="2183" vertical-scroll-proportion="0.64752793">
+        <state line="88" column="82" selection-start="2719" selection-end="2719" vertical-scroll-proportion="0.46889952">
           <folding />
         </state>
       </provider>
