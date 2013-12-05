@@ -20,6 +20,9 @@
 	<property name="out.dev.classes" location="${out.dev}/war/WEB-INF/classes"/>
 	<property name="out.dev.tmp" location="${out.dev}/tmp"/>
 
+	<property name="out.rel.war" location="${out.rel}/war"/>
+	<property name="out.rel.tmp" location="${out.rel}/tmp"/>
+
 	<target name="clean" description="Cleans this project">
 		<delete dir="${r}/out/client"/>
 		<delete dir="${r}/out/test/client"/>
@@ -117,5 +120,28 @@
 			<arg value="com.jauth.Main"/>
 		</java>
 	</target>
+
+  <target name="client-rel" description="GWT compile to JavaScript (production mode)">
+		<copy todir="${out.rel.war}/">
+			<fileset dir="${client}/war"/>
+		</copy>
+
+    <java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+      <classpath>
+				<pathelement location="${gwt.sdk}/gwt-codeserver.jar" />
+				<pathelement location="${gwt.sdk}validation-api-1.0.0.GA.jar" />
+				<pathelement location="${gwt.sdk}validation-api-1.0.0.GA-sources.jar" />
+				<path refid="gwt.dev.classpath"/>
+
+				<pathelement location="${client.src}"/>
+      </classpath>
+      <!-- add jvmarg -Xss16M or similar if you see a StackOverflowError -->
+      <jvmarg value="-Xmx256M"/>
+      <arg line="-workDir ${out.rel.tmp}"/>
+      <arg line="-war ${out.rel.war}"/>
+      <!-- Additional arguments like -style PRETTY or -logLevel DEBUG -->
+      <arg value="com.jauth.Main"/>
+    </java>
+  </target>
 	<!---->
 </project>

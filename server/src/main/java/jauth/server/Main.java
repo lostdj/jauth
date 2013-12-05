@@ -16,6 +16,7 @@ public class Main
 		 .add("/", new Jauth())
 		 .add("/ajax", new Ajax())
 		 .add(new StaticFileHandler("./server/war"))
+		 .add(new StaticFileHandler("./out/client/rel/war"))
 		 .add(new StaticFileHandler("./out/client/dev/war"))
 		 .start().get();
 

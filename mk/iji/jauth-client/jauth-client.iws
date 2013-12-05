@@ -5,7 +5,7 @@
     <ignored path="jauth-client.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/fragment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232322543" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386181523204" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386233092684" ignored="false" />
     <file path="/Auth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386169812941" ignored="false" />
     <file path="/a.dummy" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386170867934" ignored="false" />
     <file path="/AuthImpl.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386171547409" ignored="false" />
@@ -86,7 +86,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="54" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.723727">
+            <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.079089925">
               <folding />
             </state>
           </provider>
@@ -766,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="54" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.723727">
+        <state line="85" column="27" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.079089925">
           <folding />
         </state>
       </provider>
