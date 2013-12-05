@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<project name="jauth" default="" basedir=".">
+	<!--
+		Common
+		======
+	-->
+
+	<property name="r" location="../../.."/>
+	<property name="gwt.sdk" location="D:\dev\i\gwt-2.6.0-rc1"/>
+
+	<property name="out.dev" location="${r}/out/client/dev"/>
+	<property name="out.rel" location="${r}/out/client/rel"/>
+	<property name="out.test" location="${r}/out/test/client"/>
+
+	<target name="clean" description="Cleans this project">
+		<delete dir="${out.dev}" failonerror="false"/>
+		<delete dir="${out.rel}" failonerror="false"/>
+		<delete dir="${out.test}" failonerror="false"/>
+	</target>
+
+
+	<!--
+		Release
+		=======
+	-->
+
+	<path id="gwt.project.class.path">
+		<pathelement location="WEB-INF/classes"/>
+
+		<pathelement location="${gwt.sdk}/gwt-user.jar"/>
+		<fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+		
+		<!--
+		<pathelement location="${r}/out/prod/shared/shared.jar"/>
+		<fileset dir="../../out/prod/webapp/war/WEB-INF/lib" includes="**/*.jar"/>
+		-->
+
+		<!-- Add any additional non-server libs (such as JUnit). -->
+	</path>
+
+
+	<!---->
+	<!--
+	<target name="webapp-libs" description="Copy libs to WEB-INF/lib">
+		<mkdir dir="${r}/out/prod/webapp/war/WEB-INF/lib"/>
+		<copy todir="${r}/out/prod/webapp/war/WEB-INF/lib"
+			file="${gwt.sdk}/gwt-servlet.jar"/>
+		<copy todir="${r}/out/prod/webapp/war/WEB-INF/lib"
+			file="${gwt.sdk}/gwt-servlet-deps.jar"/>
+	-->
+		<!-- Add any additional server libs that need to be copied. -->
+	<!--
+		<copy todir="${r}/out/prod/webapp/war">
+			<fileset dir="${r}/modules/webapp/war"/>
+		</copy>
+	</target>
+	-->
+
+
+	<!---->
+	<!--<target name="webapp-javac" depends="webapp-libs" description="Compile java source to bytecode">
+		<mkdir dir="${r}/out/prod/webapp/war/WEB-INF/classes"/>
+
+		<javac srcdir="../../modules/webapp/src" includes="**" encoding="utf-8"
+			destdir="../../out/prod/webapp/war/WEB-INF/classes"
+			source="1.5" target="1.5" nowarn="false"
+			debug="true" debuglevel="lines,vars,source">
+
+			<classpath refid="gwt.project.class.path"/>
+		</javac>
+
+		<copy todir="${r}/out/prod/webapp/war/WEB-INF/classes">
+			<fileset dir="${r}/modules/webapp/src" excludes="**/*.java"/>
+		</copy>
+	</target>-->
+
+
+	<!---->
+	<!--depends="webapp-javac"-->
+	<target name="webapp-prod" depends="webapp-libs" description="GWT compile to JavaScript (production mode)">
+		<mkdir dir="${r}/out/prod/shared/classes"/>
+
+		<javac srcdir="../../modules/shared/src" includes="**" encoding="utf-8"
+			destdir="../../out/prod/shared/classes"
+			source="1.5" target="1.5" nowarn="false"
+			debug="true" debuglevel="lines,vars,source">
+
+			<classpath>
+				<pathelement location="${r}/modules/shared/src"/>
+				<path refid="gwt.project.class.path"/>
+			</classpath>
+		</javac>
+
+		<copy todir="${r}/out/prod/shared/classes">
+			<fileset dir="${r}/modules/shared/src"/>
+		</copy>
+
+		<zip destfile="${r}/out/prod/shared/shared.jar" basedir="${r}/out/prod/shared/classes"/>
+
+		<java failonerror="true" fork="true" classname="com.google.gwt.dev.Compiler">
+			<classpath>
+				<pathelement location="${r}/modules/webapp/src"/>
+				<path refid="gwt.project.class.path"/>
+				<pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar"/>
+				<pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar"/>
+			</classpath>
+
+			<!-- Add jvmarg -Xss16M or similar if you see a StackOverflowError. -->
+			<jvmarg value="-Xmx256M"/>
+			<arg line="-war"/>
+			<arg value="${r}/out/prod/webapp/war"/>
+
+			<arg line="-logLevel INFO"/>			
+			<arg line="-style OBF"/>
+			<arg line="-optimize 9"/>
+			<arg line="-strict"/>
+			<arg line="-localWorkers 1"/>
+
+			<arg line="-workDir ${r}/out/prod/webapp/tmp"/>
+
+			<arg value="mmobg.helloworld.webapp.Main"/>
+		</java>
+	</target>
+
+
+	<!--
+		 Dev
+		=====
+	-->
+
+
+	<!---->
+	<property name="gwt.dev_www_host" value="localhost"/>
+	<property name="gwt.dev_www_port" value="13371"/>
+	<property name="gwt.dev_code_port" value="13372"/>
+	<property name="gwt.jvm.dev_debug_port" value="13373"/>
+
+
+	<!---->
+	<path id="gwt.dev.project.class.path">
+		<pathelement location="WEB-INF/classes"/>
+
+		<pathelement location="${gwt.sdk}/gwt-user.jar"/>
+		<fileset dir="${gwt.sdk}" includes="gwt-dev*.jar"/>
+	
+		<pathelement location="${r}/out/dev/shared/shared.jar"/>
+		<fileset dir="../../out/dev/webapp/war/WEB-INF/lib" includes="**/*.jar"/>
+
+		<!-- Add any additional non-server libs (such as JUnit). -->
+	</path>
+
+
+	<!---->
+	<target name="webapp-dev-libs" description="Copy libs to WEB-INF/lib">
+		<mkdir dir="${r}/out/dev/webapp/war/WEB-INF/lib"/>
+		<copy todir="${r}/out/dev/webapp/war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet.jar"/>
+		<copy todir="${r}/out/dev/webapp/war/WEB-INF/lib" file="${gwt.sdk}/gwt-servlet-deps.jar"/>
+
+		<!-- Add any additional server libs that need to be copied. -->
+		<copy todir="${r}/out/dev/webapp/war">
+			<fileset dir="${r}/modules/webapp/war"/>
+		</copy>
+	</target>
+
+
+	<!---->
+	<target name="webapp-dev-javac" depends="webapp-dev-libs" description="Compile java source to bytecode">
+		<mkdir dir="${r}/out/dev/shared/classes"/>
+
+		<javac srcdir="../../modules/shared/src" includes="**" encoding="utf-8"
+			destdir="../../out/dev/shared/classes"
+			source="1.5" target="1.5" nowarn="false"
+			debug="true" debuglevel="lines,vars,source">
+
+			<classpath>
+				<pathelement location="$[r}/modules/shared/src"/>
+				<path refid="gwt.dev.project.class.path"/>
+			</classpath>
+		</javac>
+
+		<copy todir="${r}/out/dev/shared/classes">
+			<fileset dir="${r}/modules/shared/src"/>
+		</copy>
+
+		<zip destfile="${r}/out/dev/shared/shared.jar" basedir="${r}/out/dev/shared/classes"/>
+
+		<mkdir dir="${r}/out/dev/webapp/war/WEB-INF/classes"/>
+
+		<javac srcdir="../../modules/webapp/src" includes="**" encoding="utf-8"
+			destdir="../../out/dev/webapp/war/WEB-INF/classes"
+			source="1.5" target="1.5" nowarn="false"
+			debug="true" debuglevel="lines,vars,source">
+
+			<classpath>
+				<path refid="gwt.dev.project.class.path"/>
+			</classpath>
+		</javac>
+
+		<copy todir="${r}/out/dev/webapp/war/WEB-INF/classes">
+			<fileset dir="${r}/modules/webapp/src" excludes="**/*.java"/>
+		</copy>
+	</target>
+
+
+	<!---->
+	<target name="webapp-dev" depends="webapp-dev-javac" description="Run development mode">
+		<java failonerror="false" fork="true" spawn="true" classname="com.google.gwt.dev.DevMode"
+			dir="../../out/dev/webapp">
+			<classpath>
+				<pathelement location="../../modules/webapp/src"/>
+				<path refid="gwt.dev.project.class.path"/>
+				<pathelement location="${gwt.sdk}/validation-api-1.0.0.GA.jar"/>
+				<pathelement location="${gwt.sdk}/validation-api-1.0.0.GA-sources.jar"/>
+			</classpath>
+
+			<jvmarg value="-Xmx256M"/>
+			<jvmarg
+				value="-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=${gwt.jvm.dev_debug_port}"/>
+
+			<arg value="-startupUrl"/>
+			<arg value="helloworld.html"/>
+			<arg line="-war"/>
+			<arg value="war"/>
+
+			<arg line="-bindAddress ${gwt.dev_www_host}"/>
+			<arg line="-port ${gwt.dev_www_port}"/>
+			<arg line="-codeServerPort ${gwt.dev_code_port}"/>
+
+			<arg line="-logLevel INFO"/>			
+
+			<arg line="-workDir ${r}/out/dev/webapp/tmp"/>
+
+			<arg value="mmobg.helloworld.webapp.Main"/>
+		</java>
+	</target>
+</project>
