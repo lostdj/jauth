@@ -4,25 +4,25 @@
     <list default="true" id="069792d8-0320-48ab-8887-054a7d7ec411" name="Default" comment="" />
     <ignored path="jauth-client.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/fragment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386140106139" ignored="false" />
+    <file path="/fragment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232322543" ignored="false" />
     <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386181523204" ignored="false" />
     <file path="/Auth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386169812941" ignored="false" />
     <file path="/a.dummy" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386170867934" ignored="false" />
     <file path="/AuthImpl.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386171547409" ignored="false" />
-    <file path="/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386231664392" ignored="false" />
+    <file path="/Main.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232489595" ignored="false" />
     <file path="/Providers.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386226887528" ignored="false" />
     <file path="/Body.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386161732409" ignored="false" />
     <file path="/Google.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386169115538" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386230817838" ignored="false" />
-    <file path="/Jauth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386230816144" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386231313665" ignored="false" />
-    <file path="/Ajax.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386231313018" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Jauth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232408604" ignored="false" />
+    <file path="/Jauth.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232408198" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Ajax.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232440865" ignored="false" />
+    <file path="/Ajax.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232440865" ignored="false" />
     <file path="$PROJECT_DIR$/../../../client/war/index.tmpl.htm" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386227124721" ignored="false" />
     <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comments.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386230794775" ignored="false" />
     <file path="/Comments.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386230502392" ignored="false" />
-    <file path="/Comment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386231298281" ignored="false" />
+    <file path="/Comment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232460667" ignored="false" />
     <file path="/CommentsCodec.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386229613210" ignored="false" />
-    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386231298281" ignored="false" />
+    <file path="$PROJECT_DIR$/../../../server/src/main/java/jauth/server/Comment.java" changelist="069792d8-0320-48ab-8887-054a7d7ec411" time="1386232419950" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +86,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="48" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.6868906">
+            <state line="120" column="54" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.723727">
               <folding />
             </state>
           </provider>
@@ -104,7 +104,7 @@
       <file leaf-file-name="Comment.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
+            <state line="7" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -750,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="30" selection-start="216" selection-end="216" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Providers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="31" column="113" selection-start="818" selection-end="906" vertical-scroll-proportion="0.0">
@@ -764,9 +757,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Comment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="182" selection-end="182" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../client/src/main/java/com/jauth/client/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="48" selection-start="2685" selection-end="2685" vertical-scroll-proportion="0.6868906">
+        <state line="120" column="54" selection-start="2837" selection-end="2837" vertical-scroll-proportion="0.723727">
           <folding />
         </state>
       </provider>

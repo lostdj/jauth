@@ -63,6 +63,7 @@ public class Ajax implements HttpHandler
 
 						Gplus gp = Jauth.json.fromJson(response.toString(), Gplus.class);
 						Jauth.sessions.get(request.cookieValue("ssssid")).name = gp.displayName;
+						Jauth.sessions.get(request.cookieValue("ssssid")).url = gp.url;
 					}
 					catch(Exception e)
 					{
@@ -85,6 +86,7 @@ public class Ajax implements HttpHandler
 				case "postcomment":
 					Comment c = new Comment();
 					c.name = Jauth.sessions.get(request.cookieValue("ssssid")).name;
+					c.url = Jauth.sessions.get(request.cookieValue("ssssid")).url;
 					c.comment = request.postParam("comm");
 					c.provider = Jauth.sessions.get(request.cookieValue("ssssid")).provider;
 					Jauth.comments.comments.add(c);
@@ -125,11 +127,7 @@ public class Ajax implements HttpHandler
 
 	static class Gplus
 	{
-		String kind;
-		String etag;
-		String gender;
-		String objectType;
-		String id;
 		String displayName;
+		String url;
 	}
 }

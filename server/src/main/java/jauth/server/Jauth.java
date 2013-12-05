@@ -50,5 +50,6 @@ public class Jauth implements HttpHandler
 		public String provider;
 		public String token;
 		public String name;
+		public String url;
 	}
 }

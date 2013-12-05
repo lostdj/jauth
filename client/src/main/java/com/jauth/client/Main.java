@@ -118,7 +118,7 @@ public class Main implements EntryPoint
 					{
 						GQuery hc = $("<p/>").attr("class", "comment");
 						hc.append("<img src=\"./" + c.getProvider() + ".png\" width=\"16\" height=\"16\"/>");
-						hc.append(" " + c.getName());
+						hc.append(" <a href='" + c.getUrl() + "'> " + c.getName() + "</a>");
 						hc.append("<br/>");
 						hc.append(c.getComment());
 						commentslist.append(hc);
